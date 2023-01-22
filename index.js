@@ -111,7 +111,7 @@ const imageminOxipng = (options = {}) => input => {
 	});
 
 
-	args.push('-o', execBuffer.output, execBuffer.input);
+	args.push('--out', execBuffer.output, execBuffer.input);
 
 	return execBuffer({
 		input,
